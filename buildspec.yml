@@ -7,6 +7,3 @@ phases:
   build:
     commands:
       - npm run deploy:cicd
-  post_build:
-    commands:
-      - npm run test:remote

@@ -18,6 +18,7 @@ provider:
         - dynamodb:UpdateItem
         - dynamodb:DeleteItem
       Resource: "arn:aws:dynamodb:*:*:*"
+  profile: asurion-dev.retaildevops
 
 package:
   exclude:

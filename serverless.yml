@@ -1,4 +1,4 @@
-service: serverless-todo-cicd
+service: serverless-cicd
 
 frameworkVersion: ">=1.1.0 <2.0.0"
 

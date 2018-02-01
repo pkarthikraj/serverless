@@ -19,6 +19,11 @@ provider:
         - dynamodb:DeleteItem
       Resource: "arn:aws:dynamodb:*:*:*"
   # profile: asurion-dev.retaildevops
+  stackTags: # Optional CF stack tags
+    PLATFORM: RTM-CRMJS
+    BUSINESS_REGION: NORTHAMERICA 
+    BUSINESS_UNIT: RETAIL
+    CLIENT: MULTI_TENANT
 
 package:
   exclude:

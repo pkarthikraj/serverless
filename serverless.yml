@@ -69,7 +69,7 @@ functions:
           path: todos/{id}
           method: delete
           cors: true
-
+# RESOURCES FOR SERVERLESS
 resources:
   Resources:
     TodosDynamoDbTable:

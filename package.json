@@ -9,7 +9,7 @@
     "serverless",
     "todo"
   ],
-  "author": "Karthikraj P<pkarthikraj@gmail.com>",
+  "author": "Karthikraj Pitchaimuthu P<pkarthikraj@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.6.7",
